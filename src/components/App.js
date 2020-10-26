@@ -1,6 +1,6 @@
 import React from 'react'
 import { Global, css, jsx } from '@emotion/core'
-import reactLogo from '../img/react.png'
+import MusicPlayer from './MusicPlayer'
 
 /**
  * @function App
@@ -10,16 +10,14 @@ const App = () => (
     <Global styles={GlobalCSS} />
 
     {/* Delete me, the default .app styles in GlobalCSS, and the reactLogo img import */}
-    <img src={reactLogo} />
-    <h1>Hello Moto.</h1>
-    {/*  */}
+    <MusicPlayer />
   </>
 )
 
 const GlobalCSS = css`
   * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Signika', sans-serif;
   }
 
   html,
