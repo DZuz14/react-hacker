@@ -1,5 +1,6 @@
 import React from 'react'
 import { Global, css, jsx } from '@emotion/core'
+import MusicPlayer from './MusicPlayer'
 
 /**
  * @function App
@@ -7,6 +8,7 @@ import { Global, css, jsx } from '@emotion/core'
 const App = () => (
   <>
     <Global styles={GlobalCSS} />
+    <MusicPlayer />
   </>
 )
 
